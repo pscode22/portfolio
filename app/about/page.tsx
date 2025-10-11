@@ -5,7 +5,7 @@ export default function AboutPage() {
     <section className="prose dark:prose-invert max-w-2xl mx-auto py-10">
       <h1>About Me</h1>
       <p>
-        Hi, I'm <strong>{siteConfig.name}</strong>, a passionate {siteConfig.role}.
+        Hi, I&apos;m <strong>{siteConfig.name}</strong>, a passionate {siteConfig.role}.
         I specialize in building modern, scalable, and user-friendly web
         applications using TypeScript, React, Next.js, and Node.js.
       </p>
