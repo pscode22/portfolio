@@ -1,0 +1,33 @@
+import {
+  SiReact,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiMongodb,
+  SiTypescript,
+  SiTailwindcss,
+  SiPrisma,
+  SiGit,
+  SiPostgresql,
+  SiVercel,
+  SiFigma,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+} from "react-icons/si";
+
+export const skillsData = [
+  { name: "React", icon: SiReact },
+  { name: "Next.js", icon: SiNextdotjs },
+  { name: "Node.js", icon: SiNodedotjs },
+  { name: "TypeScript", icon: SiTypescript },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "HTML5", icon: SiHtml5 },
+  { name: "CSS3", icon: SiCss3 },
+  { name: "TailwindCSS", icon: SiTailwindcss },
+  { name: "Prisma", icon: SiPrisma },
+  { name: "MongoDB", icon: SiMongodb },
+  { name: "PostgreSQL", icon: SiPostgresql },
+  { name: "Git", icon: SiGit },
+  { name: "Vercel", icon: SiVercel },
+  { name: "Figma", icon: SiFigma },
+];
