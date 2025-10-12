@@ -141,7 +141,7 @@ export default function Intro() {
           viewport={{ once: false, amount: 0.4 }}
         >
           <a
-            href="www.linkedin.com/in/praveen-chaudhary-87493b23a"
+            href="https://www.linkedin.com/in/praveen-chaudhary-87493b23a"
             target="_blank"
             className="w-14 h-14 flex items-center justify-center 
                        rounded-full bg-white/60 backdrop-blur-md border border-gray-300
