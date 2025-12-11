@@ -67,17 +67,12 @@ export default function Intro() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.6 }} // 👈 animates only once, no flicker
-      >
-        <span className="font-bold">Hello, I&apos;m Praveen.</span> I&apos;m a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">3 years of experience</span>. I enjoy
-        turning ideas into{" "}
-        <span className="italic">simple, useful applications</span> and my main
-        focus is{" "}
-        <span className="underline decoration-2 underline-offset-4">
-          React (Next.js)
-        </span>
-        .
+        >
+        <span className="font-bold">Hello world — I&apos;m Praveen,</span> a{" "}
+        <span className="font-bold">full-stack developer</span> backed by{" "}
+        <span className="font-bold">3 years of frontend experience</span>,{" "}
+        <span className="italic">creating apps that just...</span>{" "}
+        <p>feel right.</p>
       </motion.h1>
 
       {/* Buttons & Socials */}
