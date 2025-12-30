@@ -69,10 +69,10 @@ export default function Intro() {
         viewport={{ once: true, amount: 0.6 }} // 👈 animates only once, no flicker
         >
         <span className="font-bold">Hello world — I&apos;m Praveen,</span> a{" "}
-        <span className="font-bold">full-stack developer</span> backed by{" "}
+        <span className="font-bold">MERN stack developer</span> with{" "}
         <span className="font-bold">3 years of frontend experience</span>,{" "}
-        <span className="italic">creating apps that just...</span>{" "}
-        <p>feel right.</p>
+        <span className="font-bold">writing clean, readable, and maintainable code.</span>{" "}
+        {/* <p>feel right.</p> */}
       </motion.h1>
 
       {/* Buttons & Socials */}

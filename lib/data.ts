@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       "Converted my internship into a full-time role as a Frontend Developer. Over the next two years, I honed my ability to write clean, maintainable code and gained experience solving complex business problems using modern tools and best practices.",
     icon: React.createElement(FaLaptopCode),
-    date: "2023 – 2025",
+    date: "2023 – 2026",
   },
   {
     title: "Full-Stack Developer",
@@ -56,7 +56,7 @@ export const experiencesData = [
     description:
       "While working as a frontend developer, I expanded into full-stack development — mastering backend technologies and frameworks such as Next.js over several months. Since then, I’ve built multiple full-stack projects and am now seeking new opportunities as a Full-Stack Developer.",
     icon: React.createElement(SiNextdotjs),
-    date: "2025 – Present",
+    date: "2026 – Present",
   },
 ] as const;
 export const projectsData = [
