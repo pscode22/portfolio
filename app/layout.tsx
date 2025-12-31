@@ -20,8 +20,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   keywords: [
-    "Full-Stack Developer",
-    "MERN",
+    "MERN Stack Developer",
     "React",
     "Next.js",
     "TypeScript",

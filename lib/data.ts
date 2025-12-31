@@ -51,10 +51,10 @@ export const experiencesData = [
     date: "2023 – 2026",
   },
   {
-    title: "Full-Stack Developer",
+    title: "MERN Stack Developer",
     location: "Remote / Open to Opportunities",
     description:
-      "While working as a frontend developer, I expanded into full-stack development — mastering backend technologies and frameworks such as Next.js over several months. Since then, I’ve built multiple full-stack projects and am now seeking new opportunities as a Full-Stack Developer.",
+      "While working as a frontend developer, I expanded into MERN stack development — mastering backend technologies and frameworks such as Next.js over several months. Since then, I’ve built multiple MERN projects and seeking new opportunities.",
     icon: React.createElement(SiNextdotjs),
     date: "2026 – Present",
   },
@@ -63,7 +63,7 @@ export const projectsData = [
   {
     title: "FlowPay",
     description:
-      "A modern fintech web app for managing accounts, transactions, and secure payments with JWT-based authentication.",
+      "Digital payments platform where user can manage accounts, track transactions, and do payments securely.",
     tags: [
       "React",
       "TypeScript",
@@ -80,7 +80,7 @@ export const projectsData = [
   {
     title: "PetSoft",
     description:
-      "A full-stack Next.js platform for managing pet records and related services, built with Prisma and MongoDB.",
+      "SaaS app for handling pet-related information in one clean system. Where pet care stays organized.",
     tags: ["Next.js", "TypeScript", "Prisma", "MongoDB", "Tailwind CSS"],
     imageUrl: petsoftImg,
     link : "https://petsoft-eight.vercel.app/"
@@ -88,7 +88,7 @@ export const projectsData = [
   {
     title: "Second Brain",
     description:
-      "A productivity app for organizing and sharing notes, built with a Node.js backend and React frontend.",
+      "Lightweight note system helps you keep notes organized and share it with others.",
     tags: [
       "React",
       "Vite",
@@ -103,24 +103,3 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
-] as const;

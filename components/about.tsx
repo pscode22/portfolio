@@ -42,7 +42,7 @@ export default function About() {
         <span className="font-medium">YouTube channels</span>. After securing my
         first job and working for almost 2.5 years, I expanded my skill set
         further through online courses in{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        <span className="font-medium">MERN stack web development</span>.{" "}
         <br />
         What I enjoy most about coding is its{" "}
         <span className="font-medium">problem-solving</span> aspect — nothing
@@ -53,7 +53,7 @@ export default function About() {
         and <span className="font-medium">MongoDB</span>, along with experience
         in <span className="font-medium">TypeScript</span> and{" "}
         <span className="font-medium">Prisma</span>. I&apos;m currently seeking
-        a <span className="font-medium">full-time role</span> as a full-stack
+        a <span className="font-medium">full-time role</span> as a MERN stack
         developer to continue creating impactful digital experiences.
       </motion.p>
 
