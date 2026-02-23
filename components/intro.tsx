@@ -68,10 +68,10 @@ export default function Intro() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.6 }} // 👈 animates only once, no flicker
         >
-        <span className="font-bold">Hello world — I&apos;m Praveen,</span> a{" "}
-        <span className="font-bold">MERN stack developer</span> with{" "}
-        <span className="font-bold">3 years of frontend experience</span>,{" "}
-        <span className="font-bold">writing clean, readable, and maintainable code.</span>{" "}
+        <span className="font-bold">Hello - I&apos;m Praveen,</span> a{" "}
+        <span className="font-bold">frontend developer</span> with{" "}
+        <span className="font-bold">3+ years of experience in</span>{" "}
+        <span className="font-bold">creating responsive, user-friendly web apps using React and TypeScript.</span>{" "}
         {/* <p>feel right.</p> */}
       </motion.h1>
 
