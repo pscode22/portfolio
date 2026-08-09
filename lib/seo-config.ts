@@ -4,7 +4,7 @@ export const siteConfig = {
   name: "Praveen Chaudhary",
   title: "Praveen | Portfolio",
   description:
-    "Praveen Chaudhary is a MERN stack developer with 3 years of experience in.",
+    "Praveen Chaudhary a Frontend developer with 3 years of experience in.",
   url: "https://praveen-portfolio.app",
   ogImage: "https://praveen-portfolio.app/favicon.ico",
   imgAlt: "portfolio-icon",
@@ -20,7 +20,7 @@ export function getPersonSchema(): WithContext<Person> {
     "@context": "https://schema.org",
     "@type": "Person",
     name: siteConfig.name,
-    jobTitle: "MERN Stack Developer",
+    jobTitle: "Frontend Developer | MERN & Next.js",
     description: siteConfig.description,
     url: siteConfig.url,
     sameAs: [

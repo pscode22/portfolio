@@ -67,12 +67,13 @@ export default function Intro() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.6 }} // 👈 animates only once, no flicker
-        >
+      >
         <span className="font-bold">Hello - I&apos;m Praveen,</span> a{" "}
         <span className="font-bold">frontend developer</span> with{" "}
-        <span className="font-bold">3+ years of experience in</span>{" "}
-        <span className="font-bold">creating responsive, user-friendly web apps using React and TypeScript.</span>{" "}
-        {/* <p>feel right.</p> */}
+        <span className="font-bold">3 years of experience.</span> I build{" "}
+        <span className="font-bold">scalable SaaS apps</span> using{" "}
+        <span className="font-bold">React and TypeScript</span>, with{" "}
+        <span className="font-bold">hands-on MERN experience.</span>
       </motion.h1>
 
       {/* Buttons & Socials */}
@@ -80,7 +81,7 @@ export default function Intro() {
         className="flex flex-col items-center gap-5 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1, duration: 0.6 }}
+        transition={{ delay: 0.1, duration: 0.3 }}
         viewport={{ once: false, amount: 0.4 }}
       >
         {/* Buttons Group */}
@@ -88,7 +89,7 @@ export default function Intro() {
           className="flex flex-col sm:flex-row items-center gap-4"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+          transition={{ duration: 0.3, delay: 0.2 }}
           viewport={{ once: false, amount: 0.4 }}
         >
           {/* Primary CTA */}
@@ -112,7 +113,7 @@ export default function Intro() {
 
           {/* Secondary CTA */}
           <a
-            href="/Resume.pdf"
+            href="/Praveen_Chaudhary_Resume.pdf"
             download
             className="group px-8 py-3 rounded-xl 
                        bg-white/70 backdrop-blur-md border border-gray-300

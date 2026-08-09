@@ -12,8 +12,8 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
-    hash: "#about",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Projects",
@@ -24,8 +24,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "About",
+    hash: "#about",
   },
   {
     name: "Contact",
@@ -35,31 +35,41 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Frontend Development Internship",
-    location: "Remote",
+    title: "Frontend Developer | MERN & Next.js",
+    location: "Remote / Open to Opportunities",
     description:
-      "Started my professional journey with a 6-month internship after spending around 5-6 months learning frontend development. During this period, I built a strong foundation in HTML, CSS, and JavaScript — skills I initially began exploring back in college.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
+      "Building on my professional frontend background, I expanded my expertise into the MERN stack—mastering backend technologies like Node.js, Express, and Next.js. I have spent the last several months building MERN and Nextjs applications and am actively seeking remote opportunities as a frontend developer with hands-on full-stack capabilities.",
+    icon: React.createElement(SiNextdotjs),
+    date: "2026 – Present",
   },
   {
-    title: "Frontend Developer",
+    title: "Frontend Developer (Promoted from Jr.)",
     location: "Remote",
     description:
-      "Converted my internship into a full-time role as a Frontend Developer. Over the next two years, I honed my ability to write clean, maintainable code and gained experience solving complex business problems using modern tools and best practices.",
+      "After proving myself through two 3-month internship extensions, I was brought on full-time as a Jr. Frontend Developer. By writing clean, maintainable code and solving complex business problems in a fast-paced startup environment, I earned a promotion to Frontend Developer within 1.5 years.",
     icon: React.createElement(FaLaptopCode),
     date: "2023 – 2026",
   },
   {
-    title: "MERN Stack Developer",
-    location: "Remote / Open to Opportunities",
+    title: "Frontend Development Intern",
+    location: "Remote",
     description:
-      "While working as a frontend developer, I expanded into MERN stack development — mastering backend technologies and frameworks such as Next.js over several months. Since then, I’ve built multiple MERN projects and seeking new opportunities.",
-    icon: React.createElement(SiNextdotjs),
-    date: "2026 – Present",
+      "Started my professional journey with an initial 3-month internship after spending 5-6 months learning frontend development. During this time, I built a strong, production-ready foundation in HTML, CSS, and JavaScript—skills I initially began exploring back in college.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022",
   },
 ] as const;
+
+
 export const projectsData = [
+  {
+    title: "Read Later App",
+    description:
+      "AI-powered tool that helps users strip clutter from tech blogs and get instant AI takeaways.",
+    tags: ["Next.js", "React", "TypeScript", "Better Auth", "Tailwind CSS"],
+    imageUrl: flowPayImg,
+    link: "https://read-later-app-phi.vercel.app/",
+  },
   {
     title: "FlowPay",
     description:
@@ -75,7 +85,7 @@ export const projectsData = [
       "Tailwind CSS",
     ],
     imageUrl: flowPayImg,
-    link : "https://payment-app-mocha.vercel.app/"
+    link: "https://payment-app-mocha.vercel.app/",
   },
   {
     title: "PetSoft",
@@ -83,7 +93,7 @@ export const projectsData = [
       "SaaS app for handling pet-related information in one clean system. Where pet care stays organized.",
     tags: ["Next.js", "TypeScript", "Prisma", "MongoDB", "Tailwind CSS"],
     imageUrl: petsoftImg,
-    link : "https://petsoft-eight.vercel.app/"
+    link: "https://petsoft-eight.vercel.app/",
   },
   {
     title: "Second Brain",
@@ -99,7 +109,6 @@ export const projectsData = [
       "Tailwind CSS",
     ],
     imageUrl: secondBrainImg,
-    link : "https://second-brain-lemon-eight.vercel.app/"
+    link: "https://second-brain-lemon-eight.vercel.app/",
   },
 ] as const;
-
