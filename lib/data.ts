@@ -2,6 +2,7 @@ import React from "react";
 import { FaLaptopCode } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { SiNextdotjs } from "react-icons/si";
+import aiSummarizerImg from "@/public/ai-summarizer.png";
 import flowPayImg from "@/public/flowpay.png";
 import secondBrainImg from "@/public/second-brain.png";
 import petsoftImg from "@/public/petsoft.png";
@@ -67,7 +68,7 @@ export const projectsData = [
     description:
       "AI-powered tool that helps users strip clutter from tech blogs and get instant AI takeaways.",
     tags: ["Next.js", "React", "TypeScript", "Better Auth", "Tailwind CSS"],
-    imageUrl: flowPayImg,
+    imageUrl: aiSummarizerImg,
     link: "https://read-later-app-phi.vercel.app/",
   },
   {
